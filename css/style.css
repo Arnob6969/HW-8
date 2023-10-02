@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css starts */
+:root{
+    --firstcolor:#0f2f44;
+    --secendcolor:#8383bf;
+    --font1:'Ubuntu';
+    --font2:'Abril Fatface';
+    --font3:font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.align{
+    align-items: center;
+}
+
+/* common css ends */
+/* header starts */
+.welcome{
+    width: 40%;
+}
+.opening{
+    width: 60%;
+    text-align: right;
+}
+.header{
+    background-color: var(--firstcolor);
+    color: white;
+    padding: 18px 0;
+    font-size: 16px;
+    font-family: var(--font1);
+    font-weight: 400;
+}
+/* header ends */
+/* nav starts */
+  .logo{
+    width: 30%;
+    padding: 30px 0;
+  }
+  .menu{
+    width: 70%;
+    text-align: right;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    display: inline-block;
+    color: black;
+    padding: 40px 19px;
+    font-weight: 500;
+    font-family: var(--font1);
+    transition: 30ms;
+}
+nav ul li:hover a{
+    color: #ffd447;
+    background-color: #fff9e6;
+}
+/* nav ends */
+/* banner starts */
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    height: 600px;
+}
+.font{
+    width: 40%;
+}
+.font h2{
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--firstcolor);
+    font-family: var(--font1);
+}
+.font h1{
+    font-family: var(--font2);
+    color: var(--firstcolor);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 80px;
+}
+.font h4{
+    font-family: var(--font1);
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--secendcolor);
+}
+.font p{
+    font-weight: 400;
+    color: #444444;
+    font-family: var(--font3);
+    margin: 30px 0;
+    font-size: 14px;
+}
+.font .button{
+    background-color: var(--secendcolor);
+    color: #fff;
+    font-family: var(--font1);
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.font .play{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: var(--secendcolor);
+    margin-left: 20px;
+    box-shadow: 0 0 10px #00000023;
+}
+.banner .container{
+    height: 100%;
+}
+.banner .row{
+    height: 100%;
+}
+/* banner ends */
+
